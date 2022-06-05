@@ -1,0 +1,14 @@
+{
+  "author": {
+    "name": "Kalven Schraut",
+    "email": "kalvens@rtvision.com"
+  },
+  "type": "module",
+  "scripts": {
+    "types": "vue-tsc --declaration --emitDeclarationOnly"
+  },
+  "dependencies": {
+    "typescript": "^4.7.3",
+    "vue-tsc": "^0.36.1"
+  }
+}
