@@ -1,8 +1,14 @@
 <template>
   <div>temp</div>
 </template>
+<script lang="ts">
+export default {
+  inheritAttrs: true,
+};
+</script>
 <script setup lang="ts">
-export interface Test {
-  test: string;
+async function foo() {
+  return "bar";
 }
+await foo();
 </script>
